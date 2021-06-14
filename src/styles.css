@@ -1,0 +1,17 @@
+:root {
+  --main-font: "IBM Plex Sans"
+}
+
+/* Comment these lines to deactivate tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can also use css in combination with tailwind
+https://tailwindcss.com/docs/functions-and-directives#apply
+
+body {
+  @apply bg-blue-100 p-20;
+}
+*/
+
