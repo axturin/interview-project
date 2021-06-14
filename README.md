@@ -14,13 +14,20 @@ proyecto.
 
 `npm install`
 
-### Desarrollo
+## Desarrollo
 
 `npm start`
 
-En modo desarrollo, cualquier cambio en los ficheros html, css, o elm hacen que
+El modo desarrollo lanza un proceso continuo que compila Elm, tailwind o  css y
+lanza una web en localhost:3000.
+
+Cualquier cambio en los ficheros html, css, o elm hacen que
 se recalcule el diseño sin necesidad de recargar la página (también se encarga
 de sincronizar tailwind con los cambios en Elm).
+
+### Errores
+
+Vite se encarga de mostrar los errores del compilador Elm o de Taiwlind.
 
 ## Opciones
 
