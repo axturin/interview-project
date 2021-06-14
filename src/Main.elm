@@ -60,6 +60,7 @@ view : Model -> Html Msg
 view model =
     div
         [ class "p-20 space-y-4" ]
+[   ]
         [ div
             [ class "flex justify-center" ]
             [ viewDial 150 ]
